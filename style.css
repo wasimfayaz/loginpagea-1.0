@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url(imgs/astronomy-1867616_1920.jpg);
+    background-size: 100%;
+    background-position:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  video {
+    width: 100%;
+    position: absolute;
+    z-index: -1000;
+  }
+  
+  form {
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    /* border: 1px solid rgba(255, 255, 255, 0.6); */
+    width: 320px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid white;
+  }
+  input[type="email"], input[type="password"]{
+      display: block;
+      background-color: transparent;
+      padding: 0px 26px;
+      border: none;
+      border-bottom: 1px solid white;
+      margin: 20px;
+  }
+  input:focus{
+      border: none;
+      border-bottom: 1px solid;
+      outline: none;
+      padding: 14px 26px;
+  
+  }
+  button{
+    color: white;
+    padding: 14px 84px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.295);
+    margin: 20px;
+  
+  }
+  button:hover{
+    background-color: white;
+    color: aquamarine;
+  }
+  
+  label, p{
+    color: white;
+      
+  }
+  .remember-box{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+  .bottom-reg {
+    /* background-color: red; */
+    width: 80%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  a{
+    color: white;
+  }
+  a:active{
+    color: turquoise;
+  }
+  a:hover{
+    color: cadetblue;
+  }
